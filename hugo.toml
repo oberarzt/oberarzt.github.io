@@ -1,0 +1,15 @@
+baseURL = "https://vollmond.net/"
+languageCode = "en-us"
+title = "vollmond blog"
+theme = "hugo-bearcub"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+  themeStyle = "original"
+
+[params.author]
+  name = "ober"
+  email = "ober@vollmond.net"
